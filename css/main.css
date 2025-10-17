@@ -12,16 +12,45 @@ header
     padding: 50px;
 
 }
+
 h1{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 50px;
 }
-h2{
+h2,
+h3{
     font-family: "Roboto Condensed", sans-serif;
 }
 p{
     color: #9206ce;
     font-family: "Playfair Display", serif;
+}
+
+.bi{
+    color: #00ffff;
+}
+
+#menu-principal{
+list-style-type: none;
+display: flex;
+}
+
+nav{
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+#menu-principal a{
+    text-decoration: none;
+    color: #9206ce;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+#menu-principal a:hover{
+    color: #05be87;
+    background-color: #9206ce;
 }
 
 #foto-perfil{
@@ -43,6 +72,10 @@ section{
     border-top: solid 5px #9206ce;
     margin-top: 30px;
     text-align: center;
+}
+
+#Lista-proyectos{
+    display: flex;
 }
 
 .proyecto{
@@ -85,7 +118,7 @@ progress{
 
 .lista-tecnologias{
     list-style-type:  none;
-    display: grid;
+    display: flex;
     justify-content: center;
     margin-left: 5%;
     gap: 30px;
@@ -97,4 +130,34 @@ progress{
     padding: 12px 40px;
     border-radius: 40px;
     text-align: center;
+}
+
+#contacto{
+    padding: 40px;
+}
+
+.campos{
+    width: 70;
+    clear: both;
+    font-size: 28px;
+}
+
+.campos label{
+    padding-right: 20px;
+}
+
+.campos input{
+    padding: 10px;
+    border: solid 2px #9206ce;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: #00ffff;
+    text-align: center;
+    border-top: solid 5px #9206ce;
 }
